@@ -14,7 +14,7 @@ public class ExempleDUtilisation {
         Font font = monBandeau.getFont();
         Color back = monBandeau.getBackground();
         Color fore = monBandeau.getForeground();
-
+//Notre Scénario
 		ScenarioUtilisation scenario = new ScenarioUtilisation();
 		monBandeau.setMessage("Bienvenue");
 		scenario.ajouterEffet(new Teletype(monBandeau), 1);
